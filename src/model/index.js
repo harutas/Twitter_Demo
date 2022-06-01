@@ -15,12 +15,20 @@ export class Helper {
 
         let hourStr = hour24 < 12 ? "午前" : "午後";
 
-        let dateString = ` ${hourStr} ${hour12}:${minutes}・${year}年${month}月${date}日`;
+        let dateString = `${hourStr} ${hour12}:${minutes}・${year}年${month}月${date}日`;
 
         return dateString;
     }
 
+    static currentDateString(){
+        let dt = new Date();
+        let month = dt.getMonth()+1;
+        let date = dt.getDate();
 
+        let dateString = `${month}月${date}日`;
+
+        return dateString;
+    }
 
 
 

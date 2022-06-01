@@ -8,7 +8,7 @@ import FileUploadIcon from '@mui/icons-material/FileUpload';
 const IconButtons = () => {
     return (
         <>
-            <Stack direction="row" justifyContent="space-around" sx={{my: 0.5}}>
+            <Stack direction="row" justifyContent="space-around" sx={{my: 1}}>
                 <IconButton aria-label="reply" size="small">
                     <ChatBubbleOutlineIcon fontSize="small" />
                 </IconButton>
