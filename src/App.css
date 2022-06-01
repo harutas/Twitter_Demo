@@ -1,3 +1,15 @@
 .App {
   text-align: center;
 }
+
+.MuiCardContent-root:last-child {
+  padding-bottom : 0 !important;
+}
+
+.grey {
+  color: grey;
+}
+
+.font-size12{
+  font-size: 12px;
+}
